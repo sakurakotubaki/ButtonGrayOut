@@ -16,7 +16,7 @@ class CheckboxNotifier extends StateNotifier<bool> {
 
 main.dart
 ```dart
-import 'package:button_gray_out/gray_out.dart';
+import 'package:button_gray_out/checkbox_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -96,8 +96,7 @@ class CheckBoxController extends Notifier<bool> {
 
 main.dartのコードはわずかしか、変更点がない
 ```dart
-import 'package:button_gray_out/gray_notifier.dart';
-import 'package:button_gray_out/gray_out.dart';
+import 'package:button_gray_out/checkbox_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -155,3 +154,6 @@ class MyCheckboxWidget extends ConsumerWidget {
   }
 }
 ```
+
+<image src='image/Simulator Screenshot - iPhone 14 - 2023-04-18 at 17.30.55.png' alt='checkbox' width=100px height=200px>
+<image src='image/Simulator Screenshot - iPhone 14 - 2023-04-18 at 17.30.59.png' alt='checkbox' width=100px height=200px>

@@ -1,5 +1,4 @@
-import 'package:button_gray_out/gray_notifier.dart';
-import 'package:button_gray_out/gray_out.dart';
+import 'package:button_gray_out/checkbox_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
